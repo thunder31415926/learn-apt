@@ -65,6 +65,9 @@ public class TestProcessor extends AbstractProcessor {
      */
     @Override
     public Set<String> getSupportedAnnotationTypes() {
+        //HashSet<String> supportTypes = new LinkedHashSet<>();
+        //supportTypes.add(BindView.class.getCanonicalName());
+        //return supportTypes;
         return Collections.singleton(Test.class.getCanonicalName());
     }
 
