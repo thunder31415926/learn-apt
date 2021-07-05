@@ -1,0 +1,4 @@
+include ':apt-processor'
+include ':apt-lib'
+include ':app'
+rootProject.name = "learn-apt"
